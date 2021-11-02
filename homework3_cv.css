@@ -1,0 +1,123 @@
+body{
+    background-color: black;
+}
+#personal-info{
+    width:40%;
+    height:25%;
+    position: absolute;
+    top:2%;
+    left:0%;
+
+}
+#education-info{
+    position: absolute;
+    top:25%;
+    width:40%;
+    left:0%;
+    height:75%;
+
+}
+#education-info p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 1.1em;
+    color:cyan;
+    padding:4%;
+    margin:0;
+}
+#education-info p:nth-of-type(1){
+    font-size:1.3em;
+    text-align: center;
+    font-weight: bold;
+}
+#others-info{
+    position: absolute;
+    top:0%;
+    left:40%;
+    width:60%;
+    height:100%;
+
+}
+.container{
+    border:4px dashed cyan;
+    border-radius: 5%;
+    position: absolute;
+    height:80%;
+    width:90%;
+    top:10%;
+    left:5%;
+
+
+}
+#personal-info p:nth-of-type(1){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color:cyan;
+    padding:2%;
+    margin:0;
+}
+#personal-info p:nth-of-type(2){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 1.1em;
+    color:cyan;
+    padding:2%;
+    margin:0;
+}
+#Languages{
+    border:1px solid cyan;
+    padding:2%;
+    height:20%;
+    width:80%;
+    margin:2%;
+}
+#Languages p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 1.1em;
+    color:cyan;
+    padding:2%;
+    margin:0;
+}
+#Languages table{
+    color:cyan;
+    font-size:1.1em;
+    width:90%;
+    border-top:1px solid cyan;
+    padding:1%;
+}
+#others-info h4{
+    font-size:1.5em;
+    text-align: center;
+    font-weight: bold;
+    color:cyan;
+}
+#container-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#it-skills{
+    border:1px solid cyan;
+    padding:2%;
+    height:20%;
+    width:80%;
+    margin:2%;
+}
+#it-skills p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 1.1em;
+    color:cyan;
+    padding:2%;
+    margin:0;
+}
+#it-skills table{
+    color:cyan;
+    font-size:1.1em;
+    width:90%;
+    border-top:1px solid cyan;
+    padding:1%;
+}
